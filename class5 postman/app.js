@@ -17,4 +17,8 @@ app.get("/profile",(req,res)=>{
     res.send("profile page")
 })
 
+app.get("/contact",(req,res)=>{
+    res.send("contact page")
+})
+
 app.listen(3000)
